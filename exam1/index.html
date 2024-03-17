@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examl</title>
+    <style>
+        body {
+            background-color: #D2DBD6;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background-color: #CDEBC5;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+         header{
+            text-align: center;
+        }
+        h1 {
+            color: #6BA08A;
+            margin-bottom: 10px;
+        }
+        .description {
+            color: #78A3D4;
+        }
+        .game {
+            margin-top: 20px;
+        }
+        .game-info {
+            background-color: #CDEBC5;
+            padding: 5px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 30px;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            margin: auto;
+        }
+        .secret {
+            font-size: 24px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        section.left,
+        section.right {
+            flex: 1;
+        }
+
+        input.guess {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button.check {
+            width: 80%;
+            padding: 10px;
+            background-color: #92CA68;
+            color: #fff; 
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        p.message {
+            margin-top: 0;
+            color: #333;
+        }
+
+        p.lebel-score,
+        p.lebel-highscore {
+            margin-top: 10px;
+            color: #555;
+        }
+
+        span.score,
+        span.highscore {
+            font-weight: bold;
+            color: #333;
+        }
+        .restart{
+            width: 80%;
+            padding: 10px;
+            background-color: #fff;
+            color: #92CA68;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="text-box"></div>
+            <h1>มาเล่นกันเถอะ🤖</h1>
+            <p class="description">(ระหว่าง 1 ถึง 21)</p>
+        </header>
+        <div class="game">
+            <div class="game-info">
+                <div class="secret">?</div>
+            </div>
+            <main>
+                <section class="left">
+                    <input type="number" placeholder="ทายได้ 1 - 21" class="guess"/>
+                    <button class="btn check">เอาเลขนี้แหละ!</button>
+                    <button class="restart">Restart</button>
+                </section>
+                <section class="right">
+                    <p class="message">เอ้า!! ทายมา</p>
+                    <p class="lebel-score">คะแนน: <span class="score">10</span></p>
+                    <p class="lebel-highscore">
+                        คะแนนสูงสุด: <span class="highscore">0</span>
+                    </p>
+                </section>
+            </main>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

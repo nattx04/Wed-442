@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu</title>
+</head>
+<body>
+    <input type="text" id="inputName" placeholder="Enter Food Name" />
+    <input type="number" id="inputPrice" placeholder="Enter Price" />
+    <input type="file" id="inputImage" accept="image/*" /> <!-- เพิ่มฟิลด์รูปภาพ -->
+    <button onclick="saveData()">Save Food</button>
+    <button onclick="clearData()">Clear All</button>
+
+    <div id="data"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

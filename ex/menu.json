@@ -1,0 +1,32 @@
+[
+    {
+        "imgSrc": "cok2.jpg",
+        "name": "spicy prawn soup",
+        "price": "$17.00"
+    },
+    {
+        "imgSrc": "ingkung-bakar-1-1.png",
+        "name": "grilled chicken",
+        "price": "$14.00"
+    },
+    {
+        "imgSrc": "istockphoto-156289908-612x612.jpg",
+        "name": "Pad Thai",
+        "price": "$11.00"
+    },
+    {
+        "imgSrc": "pexels-photo-1234535.jpeg",
+        "name": "papaya salad",
+        "price": "$11.00"
+    },
+    {
+        "imgSrc": "unnamed.jpg",
+        "name": "Fried Shrimp Tempura",
+        "price": "$13.00"
+    },
+    {
+        "imgSrc": "เทคนิคอาหารไทย-1.jpg",
+        "name": "Glass noodle salad",
+        "price": "$12.00"
+    }
+]
